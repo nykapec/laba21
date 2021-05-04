@@ -1,0 +1,18 @@
+using System;
+
+class y
+{
+    static uint MultX(uint b1, uint b2) => b1 * b2 + 1;
+
+    static int MultX(int n1, int n2) => n1 * n2 + 2;
+
+    static long MultX(long l1, long l2) => l1 * l2 + 3;
+
+    static void Main(string[] args)
+    {
+        Console.WriteLine($"uint 4*2 = {MultX(4U, 2U)}");
+        Console.WriteLine($"int  9*5 = {MultX(9, 5)}");
+        Console.WriteLine($"long 1*4 = {MultX(1L, 4L)}");
+        Console.ReadLine();
+    }
+}
